@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  margin-bottom: 40px;
+  padding: 10px;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  /* background-color: red;
+ */
+}
+main {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 50px;
+}
+h1 {
+  font-family: "Coiny", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.2;
+  font-family: "Sono", sans-serif;
+}
+
+span {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800
+
+.sono-<uniquifier > {
+  font-family: "Sono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "MONO" 1;
+}
+
+.coiny-regular {
+  font-family: "Coiny", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
